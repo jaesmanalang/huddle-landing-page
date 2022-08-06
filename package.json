@@ -66,7 +66,7 @@
     "supports-preserve-symlinks-flag": "^1.0.0"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
   },
   "keywords": [],
   "author": "",
