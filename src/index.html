@@ -30,13 +30,13 @@
   </head>
   <body>
     <div
-      class="h-screen max-h-[1440px] min-h-[700px] bg-pale-cyan bg-[url('/images/bg-hero-desktop.svg')] bg-no-repeat bg-center bg-cover flex flex-col"
+      class="h-screen max-h-[1440px] min-h-[630px] bg-pale-cyan bg-[url('/images/bg-hero-desktop.svg')] bg-no-repeat bg-center bg-cover flex flex-col"
     >
       <header class="py-6">
         <div class="container flex items-center justify-between">
           <img src="../images/logo.svg" alt="Huddle logo" />
           <a
-            class="font-bold rounded-full shadow-normal bg-white px-10 py-2 font-body"
+            class="font-bold rounded-full shadow-normal bg-white px-10 py-2 font-body transition hover:text-grayish-blue"
             href="#"
             >Try It Free
           </a>
@@ -55,7 +55,7 @@
             engage in genuine discussion.
           </p>
           <a
-            class="text-white inline-block font-bold rounded-full text-center bg-pink px-10 w-1/2 max-w-full py-4 font-body"
+            class="text-white inline-block font-bold rounded-full text-center bg-pink px-10 w-1/2 max-w-full py-4 font-body hover:opacity-75 transition"
             href="#"
             >Get Started For Free
           </a>
@@ -133,7 +133,19 @@
         </div>
       </div>
     </section>
-    <footer class="bg-dark-cyan py-[80px] text-white">
+    <div
+      class="bg-white shadow-normal flex flex-col items-center rounded-xl gap-5 max-w-2xl mx-auto p-10 text-center relative mt-[70px]"
+    >
+      <div class="w-full">
+        <h4 class="text-2xl mb-4">Ready To Build Your Community?</h4>
+        <a
+          class="text-white inline-block font-bold rounded-full text-center bg-pink px-10 w-1/2 max-w-full py-5 font-body hover:opacity-75 transition"
+          href="#"
+          >Get Started For Free
+        </a>
+      </div>
+    </div>
+    <footer class="bg-dark-cyan pb-[80px] text-white -mt-[70px] pt-[150px]">
       <div class="container">
         <div class="mb-6">
           <svg width="240" height="39" xmlns="http://www.w3.org/2000/svg">
